@@ -57,7 +57,7 @@ if (pinAnswer.pincode === myPin) {
             ]
         );
         if (myBalance >= fastCashamount.fastCash) {
-            myBalance -= fastCashamount.fastcash;
+            myBalance -= fastCashamount.fastCash;
             console.log(`your remaining balance is: ${myBalance}`);
         } else
             (console.log(`Insufficient Balance`));
